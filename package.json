@@ -1,0 +1,16 @@
+{
+  "name": "distributed-job-scheduler",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "workspaces": [
+    "frontend",
+    "worker"
+  ],
+  "scripts": {
+    "dev:frontend": "npm --prefix frontend run dev",
+    "dev:worker": "npm --prefix worker run dev",
+    "build": "npm --prefix frontend run build && npm --prefix worker run build",
+    "lint": "npm --prefix frontend run lint && npm --prefix worker run lint"
+  }
+}

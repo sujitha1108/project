@@ -1,0 +1,3 @@
+-- Run these files in order from the Supabase SQL editor or Supabase CLI:
+-- 1. supabase/migrations/001_initial_schema.sql
+-- 2. supabase/seed.sql
